@@ -1,29 +1,49 @@
 {
-    "name": "realtime-logs",
-    "type": "module",
-    "version": "0.0.1",
-    "bin": "lib/cli.js",
-    "scripts": {
-        "build": "vite build",
-        "preview": "vite preview",
-        "dev": "vite"
-    },
-    "devDependencies": {
-        "@roxi/routify": "^3.0.0-next.1",
-        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.13",
-        "mdsvex": "^0.9.3",
-        "svelte": "^3.39.0",
-        "vite": "^2.2.3"
-    },
-    "dependencies": {
-        "cheap-watch": "^1.0.4",
-        "chokidar": "^3.5.2",
-        "commander": "^8.3.0",
-        "cors": "^2.8.5",
-        "express": "^4.17.1",
-        "npm": "^8.3.0",
-        "read-last-lines": "^1.8.0",
-        "svelte-hamburgers": "^3.0.1",
-        "svelte-time": "^0.6.0"
-    }
+  "name": "realtime-logs",
+  "type": "module",
+  "version": "0.0.1",
+  "bin": {
+    "realtime-logs": "lib/cli.js"
+  },
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev": "vite"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@roxi/routify": "^3.0.0-next.1",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.13",
+    "mdsvex": "^0.9.3",
+    "svelte": "^3.39.0",
+    "vite": "^2.2.3",
+    "cheap-watch": "^1.0.4",
+    "chokidar": "^3.5.2",
+    "commander": "^8.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "npm": "^8.3.0",
+    "read-last-lines": "^1.8.0",
+    "svelte-hamburgers": "^3.0.1",
+    "svelte-time": "^0.6.0"
+  },
+  "description": "realtime logging",
+  "main": "typedef.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobrosenberg/realtime-logs.git"
+  },
+  "keywords": [
+    "log",
+    "realtime"
+  ],
+  "author": "jakobrosenberg@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakobrosenberg/realtime-logs/issues"
+  },
+  "homepage": "https://github.com/jakobrosenberg/realtime-logs#readme"
 }
