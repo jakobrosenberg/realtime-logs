@@ -1,7 +1,7 @@
 {
   "name": "realtime-logs",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "realtime-logs": "lib/cli.js"
   },
